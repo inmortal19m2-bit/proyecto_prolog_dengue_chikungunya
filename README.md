@@ -1,25 +1,25 @@
+# Sistema Experto en Prolog para Predicción de Dengue y Chikunguña
 
-# Sistema Experto en Prolog: Dengue y Chikungunya
+Este proyecto implementa un **sistema experto básico en Prolog** capaz de predecir, de forma heurística, si un conjunto de síntomas corresponde a **Dengue**, **Chikunguña**, una **posible confusión entre ambas**, o si **no se puede determinar**.  
+Además, el sistema sugiere un **tratamiento general educativo** (no real ni clínico).
 
-## Objetivo
-Desarrollar un sistema experto en Prolog que permita:
-1. Ingresar síntomas del posible paciente.
-2. Determinar si corresponden a Dengue o Chikungunya.
-3. Sugerir un tratamiento básico.
+## 🎯 Objetivos del Proyecto
+- Permitir al usuario ingresar síntomas y obtener una predicción:
+  - `dengue`
+  - `chikungunya`
+  - `dengue_o_chik`
+  - `desconocido`
+- Proporcionar recomendaciones educativas según la predicción.
+- Practicar la construcción de reglas lógicas en Prolog.
+- Crear un repositorio organizado para entregar como tarea final.
 
-## Ejecución
-En SWI-Prolog:
+---
 
-```
-?- ['src/diagnostico.pl'].
-?- inicio.
-```
+## ▶️ Cómo ejecutar
 
-## Bibliografía
-- Curso y conferencias del profesor.
-- OPS – Información general sobre Dengue y Chikungunya.
-- OMS – Información general sobre síntomas y recomendaciones.
+1. Instalar **SWI-Prolog**  
+   https://www.swi-prolog.org/
 
-## Integrantes
-(Agregar nombres del equipo)
+2. Abrir una terminal en la carpeta del proyecto y ejecutar:
+
 
